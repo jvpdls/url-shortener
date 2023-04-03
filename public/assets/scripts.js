@@ -2,7 +2,7 @@ async function shortenUrl() {
     var long_url = document.getElementById("long-url").value;
     var short_url = document.getElementById("short-url");
     short_url.innerHTML = "Carregando...";
-    const apiKey = 'YOUT-BITLY-API-KEY';
+    const apiKey = 'YOUT_BITLY_API_KEY';
 
     fetch("https://api-ssl.bitly.com/v4/shorten", {
         method: "POST",
