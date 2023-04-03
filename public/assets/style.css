@@ -1,0 +1,48 @@
+#site-name {
+    font-size: 1.5em;
+}
+
+#site-name a {
+    text-decoration: none;
+    color: #000;
+}
+
+.highlighted-background {
+    padding: 1rem 1.4rem;
+    background: var(--nc-bg-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+}
+
+#input__container {
+    display: grid;
+    gap: 1rem;
+}
+
+#long-url {
+    background-color: #fff;
+}
+
+#short-url__container {
+    display: none;
+}
+
+#short-url {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#faq {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 450px) {
+    #input__container {
+        grid-template-columns: auto max-content;
+    }
+
+    #long-url {
+        margin-bottom: 0;
+    }
+}
