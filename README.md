@@ -30,9 +30,9 @@ Para utilizar a API do Bitly, você precisa gerar uma chave de API. Siga os pass
 
 Abra o arquivo `/public/assets/scripts.js` e substitua o valor da variável `apiKey` pela chave de API copiada:
 
-`const apiKey = 'YOUT_BITLY_API_KEY';`
+`const apiKey = 'YOUR_BITLY_API_KEY';`
 
-Substitua `YOUT_BITLY_API_KEY` pela chave de API gerada no Bitly.
+Substitua `YOUR_BITLY_API_KEY` pela chave de API gerada no Bitly.
 
 Execução
 --------
